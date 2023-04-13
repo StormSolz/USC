@@ -1,0 +1,19 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Radiant.Tap Universals", "Synapse")
+
+local Tab = Window:NewTab("Scripts")
+
+local Section = Tab:NewSection("Universal")
+
+Section:NewButton("Radiant V3", "Loads Radiant V3 Universal", function()
+    loadstring(game:HttpGet(“https://raw.githubusercontent.com/StormSolz/RadiantV3Free/main/Free”, true))()
+end)
+
+Section:NewButton("Radiant V2", "Loads Radiant V2 Universal", function()
+    loadstring(game:HttpGet(“https://raw.githubusercontent.com/StormSolz/RadiantFree/main/RadiantFree”, true))()
+end)
+
+Section:NewButton("Radiant V1", "Loads Radiant V1 Universal", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSolz/RadiantV1/main/RadiantV1", true))()
+end)
